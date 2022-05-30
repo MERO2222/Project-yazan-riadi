@@ -1,0 +1,61 @@
+body {
+    font-size: 15pt;
+    background-image: "Ba.png" ;
+    color: red
+}
+
+ 
+ ul {
+list-style-type: none;
+padding: 0; margin:0;
+overflow: hidden;
+background: #333;
+ } 
+
+ 
+  li {
+float: left;
+} 
+
+   button {
+display: inline-block;
+color: olive;
+background-color: cornflowerblue ;
+text-align: center;
+padding: 14px 16px;
+
+} 
+
+ button:hover{
+background-color: greenyellow;
+} 
+
+.ac{
+    background-color: red;
+} 
+
+#x:hover{
+  background-color: gray;
+}
+hr {
+  border: 1px solid black;
+ 
+} 
+div{
+  border: 2px solid royalblue;
+} 
+
+@media (max-width: 400px) {
+  body {
+    background-color: lightblue;
+    
+  }
+
+}  
+@media (min-width: 500px){
+  div{
+    width:20%;
+  } 
+} 
+   
+  
